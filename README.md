@@ -20,5 +20,7 @@ The craftsmen, labourers, merchants etc. is a ***server*** which can do a partic
 
 The mayor is an ***access point*** or a ***master-server*** which keeps track of all the servers.
 
+---
+
 
 ![Map of miniature-society](http://profil.github.io/map.svg)
