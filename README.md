@@ -14,5 +14,7 @@ THE END.
 ---
 
 The lonely traveller is a ***client***
+
 The craftsmen, labourers, merchants etc. is a ***server*** which can do a particular thing.
+
 The mayor is a ***access point*** or a ***master-server*** which keeps track of all the servers.
