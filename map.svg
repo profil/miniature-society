@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<title>Map over Miniature-society</title>
+
+	<ellipse cx="100" cy="200" rx="50" ry="20" />
+	<ellipse cx="600" cy="100" rx="60" ry="25"/>
+	<ellipse cx="600" cy="200" rx="60" ry="25"/>
+	<ellipse cx="600" cy="300" rx="60" ry="25"/>
+	<circle cx="350" cy="200" r="60"/>
+
+	<text x="100" y="200" fill="white" text-anchor="middle">Client</text>
+	<text x="600" y="100" fill="white" text-anchor="middle">Server1</text>
+	<text x="600" y="200" fill="white" text-anchor="middle">Server2</text>
+	<text x="600" y="300" fill="white" text-anchor="middle">Server3</text>
+	<text x="350" y="200" fill="white" text-anchor="middle">Master</text>
+
+	<line x1="150" y1="200" x2="290" y2="200" stroke="black"/>
+	<line x1="390" y1="180" x2="540" y2="100" stroke="black"/>
+	<line x1="390" y1="200" x2="540" y2="200" stroke="black"/>
+	<line x1="390" y1="220" x2="540" y2="300" stroke="black"/>
+
+	<text x="20" y="170">Client sends a request</text>
+	<text x="220" y="120">Master responds, "Server3 knows that!"</text>
+	<text x="20" y="300">Client connects directly to Server3 which handles the request</text>
+	<circle cx="0" cy="0" r="5" fill="red">
+		<animateMotion path="M 150 200 h 140 h -140 L 540 300 L 150 200 Z" dur="10s"/>
+	</circle>
+	<line x1="150" y1="200" x2="540" y2="300" stroke="red">
+		<animate attributeName="opacity" from="0" to="100%" dur="2.5s"/>
+	</line>
+</svg>

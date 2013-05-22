@@ -9,6 +9,7 @@ Your problem is that you can't find these people, because you don't know where t
 
 So you go to the mayor, which is the only one you can find, and ask him where you can get help with your particular problem. He explains the way there and then tell you good luck to your search.
 You find that special craftsman you were looking for, he solves your problem and everything is fine again. You say goodbye and he says "Welcome back my lovely Gentleman!"
+
 THE END.
 
 ---
